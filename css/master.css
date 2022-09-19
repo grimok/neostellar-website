@@ -1,0 +1,156 @@
+.h-logo{
+  width: 10%;
+  padding: 5px;
+  animation: pulse 20s linear infinite;
+  display: inline-block;
+}
+
+.header{
+  background-color: black;
+  margin: 0px;
+  padding: 5px;
+  display: block;
+  position: fixed;
+  z-index: 100;
+}
+.fixed-header{
+  background-color: black;
+  margin: 0px;
+  padding: 5px;
+  position: static;
+  height: 100px;
+}
+
+.gallery{
+  background-color: black;
+}
+
+.h-image{
+  padding: 5px;
+  margin-left: 5px;
+  display: inline-block;
+
+}
+
+.image-gallary{
+  height: 640px;
+  background-image: url('../gallary/20353650.jpg');
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nope{
+  background-color: rgba(0,0,0, 0.8);
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 2;
+  font-size: 72px;
+  color: white;
+  width: 68%;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.body-our-team{
+  height: 1000px;
+  background-color: black;
+}
+
+
+.tm-meet-header{
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 40px;
+}
+
+.tm-grimok{
+  padding-top: 100px;
+  margin: 0 auto;
+  float: left;
+  height: 600px;
+  width: 320px;
+}
+
+.pp-grimok{
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='40' ry='40' stroke='white' stroke-width='4' stroke-dasharray='6%2c 12%2c 14' stroke-dashoffset='36' stroke-linecap='butt'/%3e%3c/svg%3e");
+  border-radius: 40px;
+  z-index: 1;
+}
+
+.pp-grimok-png{
+  border-radius: 40px;
+  margin: 0 auto;
+  padding-top: 5px;
+  z-index: 0;
+  width: 190px;
+  height: 190px;
+}
+
+.pp-kardasland-png{
+  border-radius: 40px;
+  margin: 0 auto;
+  padding-top: 5px;
+  z-index: 0;
+  width: 190px;
+  height: 190px;
+}
+
+.pp-kardasland{
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='40' ry='40' stroke='white' stroke-width='4' stroke-dasharray='6%2c 12%2c 14' stroke-dashoffset='36' stroke-linecap='butt'/%3e%3c/svg%3e");
+  border-radius: 40px;
+}
+
+.tm-kardasland{
+  padding-top: 100px;
+  margin: 0 auto;
+  float: left;
+  height: 600px;
+  width: 320px;
+}
+
+.tm-members{
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0px 0;
+}
+
+
+@-webkit-keyframes "pulse" {
+0% {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+50% {
+   -webkit-transform: scale(1.0);
+   transform: scale(1.0);
+}
+100% {
+    -webkit-transform: scale(1.15);
+   transform: scale(1.15);
+}
+}
+
+body{
+  margin: 0px;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
